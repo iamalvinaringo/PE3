@@ -1,0 +1,68 @@
+/*Start of Basic Reset*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Calibri, sans-serif;
+}
+/*End of Basic Reset*/
+
+/*Start of Navbar*/
+.navbar {
+  background-color: transparent;
+  background: transparent;
+  border-color: transparent;
+}
+
+#brand {
+  height: 70px;
+  width: 70px;
+  margin-left: 10px;
+}
+/*End of Navbar*/
+
+/*Start of Registration*/
+
+#register{
+    background-color: #650ef2;
+    height: 400px;
+}
+#why{
+  padding: 5%;
+  font-size: larger;
+  font-style: italic;
+  color: whitesmoke;
+}
+
+#form-register{
+    width: 400px;
+    height: 300px;
+    color: whitesmoke;
+}
+
+#form-buy {
+  margin-left: 250px;
+  padding-top: 20px;
+  width: 400px;
+  height: 300px;
+}
+
+#ticketprice {
+
+  text-align: center;
+  padding-top: 40px;
+  height: 250px;
+
+}
+#ticketprice h1 {
+  font-size: 80px;
+}
+
+#btn {
+  margin-top: 24px;
+  margin-left: 130px;
+}
+
+/*End of Registration*/

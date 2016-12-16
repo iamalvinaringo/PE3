@@ -1,30 +1,276 @@
 <!DOCTYPE html>
 <html>
   <head>
+    <meta charset="utf-8">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="css/animate.css" rel="stylesheet" type="text/css">
     <link href="css/styles.css" rel="stylesheet" type="text/css">
     <script src="js/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
     <script src="js/scripts.js"></script>
     <title>PE3</title>
   </head>
   <body>
-    <!-- Start of .navbar -->
-    <div class="container-fluid header">
+    <!-- Start of .intro-page -->
+    <div class="intro-page">
       <div class="navbar navbar-default">
 
         <div class="navbar-brand">
-          <a href="#"><img id="logo"src="img/logoblaack.png"></a>
-        </div> <!-- End of .navbar-header -->
-          <a href="#" class="navbar-right">Register</a>
-          <a href="#" class="navbar-right">Gallery</a>
-          <a href="#" class="navbar-right">Blog</a>
-          <a href="#" class="navbar-right">Bio</a>
+          <a href="#"><img id="brand"src="img/logoblack.png"></a>
+        </div> <!-- End of .navbar-brand -->
+          <a href="#gallery" class="navbar-right">Photos</a>
+          <a href="#blog" class="navbar-right">Blog</a>
+          <a href="#bio" class="navbar-right">Bio</a>
         </div> <!-- End of .navbar -->
-    </div> <!-- End of .header -->
+        <h1 class="animated fadeInUp">PASSIONATE EXPRESSION</h1>
+        <h2 class="animated fadeInUp">The begining</h2>
+        <span class="ion-ios-arrow-down"></span>
+    </div>
+    <!-- End of .intro-page -->
+    <div class="registration">
+        <div class="row">
+            <div class="col-md-6" id="register">
+                <div class="row" id="link">
+                  <a href="forms.html"><h1>REGISTER</h1></a>
+                </div>
+            </div> <!-- End of .register -->
+
+            <div class="col-md-6" id="Tickets">
+                <div class="row" id="link">
+                  <a href="forms.html"><h1>BUY TICKET</h1></a>
+                </div>
+            </div><!-- End of #tickets -->
+        </div><!-- End of .row -->
+    </div> <!-- End of .registration -->
+
+    <!-- Start of .bio-page -->
+    <div class="bio-page" >
+        <div class="container-fluid top">
+            <h1 id="bio">BIO</h1>
+            <div class="row bio-content" >
+              <div class="col-md-6">
+                <p>
+                  We Ut wisi enim ad minim veniam, quis not
+                  trudexer ci tation uliamcorper suscript lob
+                  ortis nisi ut aliquip ex ea commodo conse
+                  quat. duisau tem vei enum iriure dolor in.
+                </p>
+                <p>
+                  We Ut wisi enim ad minim veniam, quis not
+                  trudexer ci tation uliamcorper suscript lob
+                  ortis nisi ut aliquip ex ea commodo conse
+                  quat. duisau tem vei enum iriure dolor in.
+                </p>
+              </div>
+              <div class="col-md-6">
+                <p>
+                    Ut wisi enim ad minim veniam, quis not
+                    trudexer ci tation uliamcorper suscript lob
+                    ortis nisi ut aliquip ex ea commodo conse
+                    quat. duisau tem vei enum iriure dolor in.
+                </p>
+                <p>
+                  We Ut wisi enim ad minim veniam, quis not
+                  trudexer ci tation uliamcorper suscript lob
+                  ortis nisi ut aliquip ex ea commodo conse
+                  quat. duisau tem vei enum iriure dolor in.
+                </p>
+              </div>
+            </div><!-- End of .bio -->
+
+        </div><!-- End of .top -->
+    </div>
+    <!-- End of .bio-page -->
+
+    <!-- Start of .album -->
+    <div class="album">
+      <div class="row">
+        <div class="col-md-4">
+          <img src="img/veresoalbum.jpg" >
+        </div>
+        <div class="col-md-8 album-details">
+            <h2>WALK ON</h2>
+            <strong><h3>by Vereso</h3></strong>
+            <p>
+              Give Thanks is a live contemporary Christian worship album recorded by American singer and songwriter, Don Moen. In February 1995, the album was certified gold with the Recording Industry Association of America (RIAA), in recognition
+              of selling over 500,000 units
+            </p>
+            <button class="btn btn-primary btn-lg">Buy Album</button>
+        </div>
+      </div><!-- End of .row -->
+    </div>
+    <!-- End of .album -->
+
+    <div id="gallery" class="container-fluid">
+      <div class="col-md-offset-1 col-md-10">
+        <h1>PHOTOS</h1>
+        <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Maecenas porttitor congue massa. Fusce posuere, magna sed pulvinar ultricies, purus lectus malesuada libero, sit amet commodo magna eros quis urna.
+        </p>
+
+        <div id="mycarousel" class="carousel slide" data-ride="carousel">
+          <div class="carousel-inner">
+             <div class="item active">
+               <div class="row">
+
+                <div class="col-xs-6 col-md-4">
+                    <img id="photo1" class="thumbnail img-single" src="img/gallery/photo6.jpg">
+                </div>
+
+                <div class="col-xs-6 col-md-4">
+                    <img id="photo2" class="thumbnail img-single" src="img/gallery/photo4.jpg">
+                </div>
+
+                <div class="col-xs-6 col-md-4">
+                    <img id="photo3" class="thumbnail img-single" src="img/gallery/photo3.jpg">
+                </div>
+
+              </div> <!-- End of .row -->
+            </div>
+
+            <div class="item">
+              <div class="row">
+
+               <div class="col-xs-6 col-md-4">
+                   <img id="photo4" class="thumbnail img-single" src="img/gallery/photo1.jpg">
+               </div>
+
+               <div class="col-xs-6 col-md-4">
+                   <img id="photo5" class="thumbnail img-single" src="img/gallery/photo5.jpg">
+               </div>
+
+               <div class="col-xs-6 col-md-4">
+                   <img id="photo6" class="thumbnail img-single" src="img/gallery/photo7.jpg">
+               </div>
+
+             </div> <!-- End of .row -->
+            </div>
+          </div><!-- End of .carousel-inner -->
+        </div><!-- End of .carousel -->
 
 
+    </div>
+        <span class="clearfix"></span>
+        <a id="button" href="#"><button class="btn btn-default btn-lg">See more</button></a>
+      </div>
 
+    </div>
+    <!-- End of #gallery -->
 
+    <!-- Start of .video -->
+    <div class="video">
+      <video muted autoplay loop>
+        <source src="video/dazed.mp4" type="video/mp4">
+        <source src="video/dazed_VP8.webm" type="video/webm">
+      </video>
+    </div>
+    <!-- End of .video -->
+
+    <!-- Start of .subscribe -->
+    <div class="subscribe">
+        <div class="container" id="box">
+            <h2 class="unsubscribed">Subscribe to Our Newsletter</h2>
+            <h3 class="subscribed"><h3>
+            <form id="subscribe" class="form-inline unsubscribed">
+
+                <div class="form-group">
+                    <label class="sr-only" for="Name">Name</label>
+                    <input type="text" class="form-control" id="name" placeholder="Name">
+
+                    <label class="sr-only" for="email">Email</label>
+                    <input type="email" class="form-control" id="email" placeholder="Email">
+                </div>
+
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button id="sub-btn" class="btn btn-default" >Subscribe</button>
+                </div>
+            </form>
+        </div>
+    </div>
+    <!-- End of .subscribe-->
+
+    <!-- Start of Blog -->
+    <div class="blog">
+      <h1 id="blog">Our Blog</h1>
+      <div class="row blog-row">
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/child.jpg">
+            <div class="caption">
+              <h2>Feed A Child</h2>
+              <p>
+                Ut wisi enim ad minim veniam, quis not
+                trudexer ci tation uliamcorper suscript lob
+                ortis nisi ut aliquip ex ea commodo conse
+                quat. duisau tem vei enum iriure dolor in.
+              </p>
+              <a href="http://www.adpp-gb.org/projects/child-aid-bissora" class="btn btn-primary" role="button">Read more..</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/school.jpg">
+            <div class="caption">
+              <h2>Schools Tour</h2>
+              <p>
+                Ut wisi enim ad minim veniam, quis not
+                trudexer ci tation uliamcorper suscript lob
+                ortis nisi ut aliquip ex ea commodo conse
+                quat. duisau tem vei enum iriure dolor in.</p>
+              </p>
+              <a href="https://www.facebook.com/schoolsnotprisonstour/" class="btn btn-primary" role="button">Read more..</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-sm-6 col-md-4">
+          <div class="thumbnail">
+            <img src="img/thanks3.jpg">
+            <div class="caption">
+              <h2>Thanksgiving Launch</h2>
+              <p>
+                Ut wisi enim ad minim veniam, quis not
+                trudexer ci tation uliamcorper suscript lob
+                ortis nisi ut aliquip ex ea commodo conse
+                quat. duisau tem vei enum iriure dolor in.</p>
+              </p>
+              <a href="http://www.beliefnet.com/entertainment/music/the-biggest-band-you-never-knew.aspx" class="btn btn-primary" role="button">Read more..</a>
+            </div>
+          </div>
+        </div>
+
+      </div> <!-- End of .row -->
+    </div>
+    <!-- End of Blog-->
+
+    <!-- Start of Counter-->
+    <div class="count">
+      <div class="row">
+
+      <table class="col-md-offset-2 col-md-8 countdown">
+          <tr class="info">
+              <td colspan="4">Passion Expression Countdown</td>
+          </tr>
+          <tr class="info">
+              <td id="days">120</td>
+              <td id="hours">4</td>
+              <td id="minutes">12</td>
+              <td id="seconds">22</td>
+          </tr>
+          <tr>
+              <td>DAYS</td>
+              <td>HOURS</td>
+              <td>MINUTES</td>
+              <td>SECONDS</td>
+
+          </tr>
+      </table>
+      </div>
+    </div>
+    <!-- EndS of Counter-->
   </body>
 </html>

@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+  <head>
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+      <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+      <link href="css/animate.css" rel="stylesheet" type="text/css">
+      <link href="css/styles1.css" rel="stylesheet" type="text/css">
+      <script src="js/jquery.min.js"></script>
+      <script src="js/scripts.js"></script>
+      <title>Registration</title>
+  </head>
+  <body>
+    <div class="row" id="register">
+
+      <div class="navbar navbar-default">
+        <div class="navbar-brand">
+          <a href="index.html"><img id="brand"src="img/logoblack.png"></a>
+        </div> <!-- End of .navbar-brand -->
+      </div> <!-- End of .navbar -->
+
+      <div class="col-md-4" id="why">
+        <h2>Why Register</h2>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+          Ad animi aperiam beatae est magni rerum, sunt! Amet aut
+          beatae dignissimos inventore iste iusto natus? Adipisci
+          error facilis hic molestias possimus!
+        </p>
+      </div>
+
+      <div class="col-md-4">
+        <form id="form-register">
+            <div class="form-group">
+                <label for="name">Full Name</label>
+                <input type="text" class="form-control" placeholder="eg. Spongebob Squarepants">
+            </div>
+            <div class="form-group">
+                <label for="age">Age</label>
+                <input type="text" class="form-control" placeholder="eg.25">
+            </div>
+
+            <div class="form-group">
+                <label for="mobile">Mobile Number</label>
+                <input type="mobile" class="form-control" placeholder="+2547XXXXXXXX">
+            </div>
+
+            <div class="form-group">
+                <label for="Email">Email</label>
+                <input type="email" class="form-control" placeholder="eg. spongebob@krustycrab.com">
+            </div>
+        </form>
+      </div>
+
+      <div class="col-md-4">
+        <form id="form-register">
+            <div class="form-group">
+                <label for="assebly">Assembly</label>
+                <select class="form-control">
+                  <option>NPC Woodley</option>
+                  <option>NPC Thika Road</option>
+                  <option>NPC Valley Road</option>
+                  <option>NPC Buruburu</option>
+                  <option>NPC Ngong</option>
+                  <option>Other</option>
+                </select>
+            </div>
+            <div class="form-group">
+                <label for="team">Team of Interest</label>
+                <select class="form-control">
+                  <option>Media</option>
+                  <option>Perfomances</option>
+                  <option>Creatives</option>
+                </select>
+            </div>
+
+            <button type="submit" class="btn btn-default btn-lg">Sumbit</button>
+        </form>
+      </div>
+
+    </div> <!--End of #register -->
+
+    <div class="row" id="buy">
+      <div class="col-md-4" id="ticketprice">
+        <h1>Early Bird</h1>
+        <h1>Kshs. 500</h1>
+      </div>
+
+
+      <div class="col-md-8">
+        <form id="form-buy">
+          <div class="form-group">
+              <label for="numberOfTickets">Number of Tickets</label>
+              <input id="numberOfTickets" type="number" class="form-control" min="0">
+          </div>
+          <p>Choose payment option: </p>
+          <label>
+            <input type="radio" name="payment">
+            <img src="img/m-pesa.png" >
+          </label>
+
+          <label>
+            <input type="radio" name="payment">
+            <img src="img/airtelmoney.png">
+          </label>
+
+          <label>
+            <input type="radio" name="payment">
+            <img src="img/PesaPal_s.png">
+          </label>
+
+          <label>
+            <input type="radio" name="payment">
+            <img src="img/KCBMOBILE.png">
+          </label>
+
+          <button id="btn" type="submit" class="btn btn-default btn-lg">Buy Ticket(s)</button>
+
+      </form>
+      </div> <!--End of .col-md-8 -->
+
+      </div>
+
+    </div> <!--End of #buy-->
+  </body>
+</html>

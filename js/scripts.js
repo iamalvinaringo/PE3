@@ -35,7 +35,7 @@ $(document).ready(function() {
     $("form#subscribe").submit(function  () {
       event.preventDefault();
 
-      var input=$("#email").val();
+      var input=$("#name").val();
 
       $(".unsubscribed").hide();
       $(".subscribed").append(input + " has been successfully subscribed to our newsletter. Thank you.")

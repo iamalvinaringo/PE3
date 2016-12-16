@@ -179,13 +179,15 @@ a:hover {
    text-align: centre;
    background-color: white;
    margin-top:30px;
-   width: 700px;
-   height: 250px;
+   width: 800px;
+   height: 350px;
+  
 }
 
 .bio-content p {
   font-family: 'Raleway', sans-serif;
-  padding: 15px;
+  padding: 20px;
+  font-size: 18px;
 }
 /* End of Bio-page*/
 
